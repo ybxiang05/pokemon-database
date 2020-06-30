@@ -10,8 +10,7 @@ const StyledGrid = styled(Grid)`
   flex-flow: row wrap;
 `;
 
-const CardGrid = props => {
-  const { data } = props;
+const CardGrid = ({ data }) => {
   return (
     <StyledGrid>
       {data.map(pokemon => {
