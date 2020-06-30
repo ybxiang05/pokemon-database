@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <AppBar>
       <Toolbar>
-        <h2>Pokemon API Test Drive</h2>
+        <h2>Pokemon Store</h2>
       </Toolbar>
     </AppBar>
   );
