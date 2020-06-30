@@ -12,7 +12,7 @@ class GetPokemon extends React.Component {
   }
 
   async componentDidMount() {
-    await fetch("https://pokeapi.co/api/v2/pokemon/?limit=964")
+    await fetch("https://pokeapi.co/api/v2/pokemon/?limit=251")
       .then(res => res.json())
       .then(
         result => {
